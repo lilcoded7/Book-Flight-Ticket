@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # local apps
     'ticket',
-
+    'account',
     # third party apps 
     "rest_framework",
     "corsheaders",

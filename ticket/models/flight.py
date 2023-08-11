@@ -10,10 +10,10 @@ class Flight(models.Model):
     departure_date = models.DateField()
     price = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)
 
-    def update_flight(request, email):
-        flight = Flight.objects.get(passenger_name=passenger_name)
-        flight.passenger_email=email
-        flight.save()
+    # def update_flight(request, email):
+    #     flight = Flight.objects.get(passenger_name=passenger_name)
+    #     flight.passenger_email=email
+    #     flight.save()
 
    
     def __str__(self):
