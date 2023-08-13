@@ -70,15 +70,6 @@ http://127.0.0.1:8000/api/v1/account/login/
 http://127.0.0.1:8000/api/v1/book/flight/ticket/
 ```
 
-
 ## API Documentation
-```
-http://127.0.0.1:8000/api/v1/account/register/
-```
-```
-http://127.0.0.1:8000/api/v1/account/login/
-```
-```
-http://127.0.0.1:8000/api/v1/book/flight/ticket/
-```
+http://127.0.0.1:8000/api/doc
 
