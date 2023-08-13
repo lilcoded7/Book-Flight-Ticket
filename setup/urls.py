@@ -24,8 +24,8 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('ticket.urls')),
-    path('account/', include('account.urls'))
+    path('api/v1', include('ticket.urls')),
+    path('api/v1/account/', include('account.urls'))
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
