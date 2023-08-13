@@ -44,23 +44,35 @@ git clone https://github.com/lilcoded7/Mid-level-Django-Test.git
   (.venv) $ python manage.py runserver
   ```
 
+## To Run Docker Application
+```
+  docker-compose up --build
+```
+
 * Copy the IP address provided once your server has completed building the site. (It will say something like >> Serving at http://0.0.0.0:8000).
 * Open the address in the browser
 
+## Commands
+Open docker commands with 
+```
+docker ps
+docker exec -it <CONTAINER_NAME> bash
+```
+
 ## Endpoints
 ```
-http://127.0.0.1:8000/api/v1/run-scraper/
+http://127.0.0.1:8000/api/v1/register/
 ```
 ```
-http://127.0.0.1:8000/api/v1/records/
+http://127.0.0.1:8000/api/v1/book/flight/ticket/
 ```
 
 
 ## API Documentation
 ```
-pending
+http://127.0.0.1:8000/api/v1/register/
 ```
 ```
-pending
+http://127.0.0.1:8000/api/v1/book/flight/ticket/
 ```
 
